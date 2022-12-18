@@ -1,12 +1,12 @@
 
-const button = document.getElementById('lists');
+const pullDownButton = document.getElementById('lists');
 
-button.addEventListener('mouseover', function() {
+pullDownButton.addEventListener('mouseover', function() {
     console.log('乗る');
 });
-window.addEventListener('mouseout', function() {
+pullDownButton.addEventListener('mouseout', function() {
     console.log('外れる');
 });
-window.addEventListener('click', function() {
+pullDownButton.addEventListener('click', function() {
     console.log('クリック');
 });
